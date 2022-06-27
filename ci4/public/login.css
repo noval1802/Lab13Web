@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins" sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #47b5ff;
+}
+.container {
+  position: relative;
+  width: 350px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #47b5ff;
+  box-shadow: 25px 25px 75px rgba(19, 99, 223), 10px 10px 70px rgba(19, 99, 223),
+    inset 5px 5px 10px rgba(19, 99, 223), inset 5px 5px 10px rgba(19, 99, 223),
+    inset -5px -5px 15px rgba(19, 99, 223);
+  border-radius: 30px;
+  padding: 50px;
+}
+.inputBox .InputForEmail {
+  position: relative;
+  width: 100%;
+}
+.inputBox .InputForPassword {
+  position: relative;
+  width: 100%;
+}
+.container h3 {
+  color: #085689;
+  font-weight: 600;
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.inputBox {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.inputBox span {
+  display: inline-block;
+  color: #ffff;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+  border-left: 4px solid #085689;
+  padding-left: 4px;
+  line-height: 1em;
+}
+.inputBox .box {
+  display: flex;
+}
+.inputBox .box .icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #085689;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  color: #ffff;
+  font-size: 1.15em;
+  box-shadow: 5px 5px 7px rgba(19, 99, 223), inset 2px 2px 5px rgba(19, 99, 223),
+    inset -3px -3px 5px rgba(19, 99, 223);
+}
+.inputBox .box input {
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.inputBox .box input[type="submit"]{
+  background: #085689;
+  box-shadow: 5px 5px 7px rgb(55, 93, 151), inset 2px 2px 5px rgb(46, 95, 167),
+    inset -3px -3px 5px rgba(19, 99, 223);
+    color: #ffff;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 10px;
+}

@@ -145,7 +145,7 @@ class UserSeeder extends Seeder
 Selanjutnya buka kembali CLI dan ketik perintah berikut:
 ``php spark db:seed UserSeeder``
 
-![login](img/)
+![login](img/userLogin.png)
 
 ## Menambahkan Auth Filter
 Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama **Auth.php** pada direktori **app/Filters**.
